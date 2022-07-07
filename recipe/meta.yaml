@@ -1,5 +1,5 @@
 {% set name = "ooouno" %}
-{% set version = "0.1.13" %}
+{% set version = "0.2.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ooouno-{{ version }}.tar.gz
-  sha256: a1b719013ffd7245d9a62c9402293ed3dc5e2a97521609d4337dc450f4e50b5a
+  sha256: c3d9557a1b9ba1560fb8522cd13ab605742a92c7d8735a0aaf358e5b78b791be
 
 build:
   number: 0
